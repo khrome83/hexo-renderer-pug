@@ -12,4 +12,4 @@ Add support for [Pug].
 $ npm install hexo-renderer-pug --save
 ```
 
-[Pug]: http://pug-lang.com/
+[Pug]: https://pugjs.org/api/getting-started.html
