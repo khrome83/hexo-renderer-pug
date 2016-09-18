@@ -1,9 +1,9 @@
 {
 
     "name"        : "hexo-renderer-pug",
-    "version"     : "0.0.5",
+    "version"     : "0.0.6",
     "description" : "Pug renderer plugin for Hexo",
-    "main"        : "index",
+    "main"        : "index.js",
 
     "scripts" : {
         "eslint"   : "eslint .",
@@ -12,7 +12,7 @@
         "test-cov" : "istanbul cover --print both _mocha -- test/index.js"
     },
 
-    "repository" : "iwarner/hexo-renderer-pug",
+    "repository" : "https://github.com/iwarner/hexo-renderer-pug.git",
 
     "keywords" : [
         "hexo",
@@ -21,10 +21,14 @@
     ],
 
     "author"  : "Ian Warner <ian.warner@drykiss.com> (http://drykiss.com)",
+    "contributors": [{
+        "name": "Zane Milakovic",
+        "email": "zane.milakovic@iclooud.com"
+    }],
     "license" : "MIT",
 
     "dependencies" : {
-        "pug" : "2.0.0-alpha1"
+        "pug" : "2.0.0-beta6"
     },
 
     "devDependencies" : {
