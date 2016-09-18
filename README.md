@@ -13,3 +13,9 @@ $ npm install hexo-renderer-pug --save
 ```
 
 [Pug]: https://pugjs.org/api/getting-started.html
+
+## Uppdate from Jade
+
+Jade has been renamed to Pug. This package will updated your hexo account to use Pug instead of the jade syntax. Pug requires you to change you files from `.jade` to `.pug` for this to work correctly. 
+
+There are also a few minor changes between Jade and Pug 2.0 designed to clean up the code and make it more efficient. You can read about these [here](https://pugjs.org/api/migration-v2.html).
